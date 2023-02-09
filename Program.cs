@@ -14,7 +14,7 @@ namespace MyBlazorApp
     {
         public static async Task Main(string[] args)
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjI2NzA3QDMxMzgyZTMxMmUzMGovREJNR3BPSUkzUTJ6TnRWOTNpZE1OT2RSa0tGZTEzWWpocW5OY1hXVXM9");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your License Key");
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
 
